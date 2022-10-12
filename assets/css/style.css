@@ -9,7 +9,14 @@
 body {
 font-family: 'Montserrat', sans-serif;
 font-weight: 200;
-color: rgb(19, 19, 100);
+color: rgb(231, 31, 31);
+background-color: black;
+}
+/*image*/
+#home-image {
+    height:600px;
+    width: 100%;
+   background: url('../images/first-image-coding-club.jpeg') no-repeat center center;
 }
 /*Structure */
 h2 {
@@ -19,7 +26,7 @@ h3 {
     font-size: 1.5rem;
 }
 h2, h3, h4 {
-    color: rgb(35, 30, 83);
+    color: rgb(196, 39, 39);
 }
 .text-center {
     text-align: center;
@@ -43,7 +50,6 @@ h2, h3, h4 {
     padding: 10px;
 }
 #logo {
-    text-align: center;
     font-size: 250%;
     line-height: 80px;
 }
@@ -59,7 +65,8 @@ h2, h3, h4 {
     line-height: 80px;
     position: relative;
 }
-/*About us*/
-#about-us {
-background-color: aqua;
+/*Reason why to choose us section*/
+#reasons {
+    margin: 10%;
+    background: url('../images/coding-club-home.jpeg') no-repeat right center;
 }
