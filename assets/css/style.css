@@ -14,7 +14,7 @@ background-color: rgb(97, 96, 96);
 }
 /*image*/
 #home-image {
-    height:800px;
+    height: 800px;
     width: 100%;
    background: url('../images/first-image-coding-club.jpeg') no-repeat center center;
 }
@@ -25,7 +25,7 @@ h2 {
 }
 h3 {
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     line-height: 35px;
     margin-bottom: 50px;
 }
@@ -54,12 +54,14 @@ h2, h3, h4 {
     padding: 10px;
 }
 #logo {
-    font-size: 250%;
+    font-size: 220%;
     line-height: 80px;
+    color: white;
+    margin-left: 10%;
 }
 /*Navigation*/
 #menu {
-    font-size: 150%;
+    font-size: 120%;
     letter-spacing: 4px;
 }
 #menu li {
@@ -69,11 +71,14 @@ h2, h3, h4 {
     line-height: 80px;
     position: relative;
 }
+nav ul li a {
+    color: white;
+}
 /*Reason why to choose us section*/
 #reasons-img {
     background: url('../images/coding-club-home.jpeg') no-repeat center center;
     float: right;
-    height: 500px;
+    height: 550px;
     width: 50%;
     margin-top: 5rem;
 }
@@ -105,4 +110,27 @@ input[type=submit] {
 	color: white;
 	border: none;
 	border-radius: 5px;
+}
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+    text-transform: uppercase;
+	margin: 20px 0 10px 0;
+    color: black;
+    letter-spacing: 1.5px;
+}
+label {
+    margin: 10px 15px 5px 0;
+    color: black;
 }
