@@ -13,7 +13,7 @@
     <!-- Navigation/Menu-->
     <nav>
         <ul id="menu">
-            <li><a href="#reasons">Why Coding Club</a></li>
+            <li><a href="#reasons-left">Why Coding Club</a></li>
             <li><a href="#sign-up">Sign up</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -24,6 +24,7 @@
             </h1>
             </a>
     </header>
+    <!--Home page image-->
     <section>
         <div id="home-image"></div>
     </section>
@@ -58,8 +59,8 @@
     <h3>10 classes for $50</h3>
       </div>
       <form action="https://formdump.codeinstitute.net" method="POST">
-        <fieldset>
-          <legend>Your details:</legend>
+        <fieldset id="feedback">
+            <p class="text-center">Your details:</p>
           <label for="child-name" class="block-label">Name of child</label>
           <input type="text" id="child-name" name="child-name" placeholder="Child's name" required>
           <br><br>
@@ -76,5 +77,16 @@
         </fieldset>
       </form>
     </section>
+    <section>
+        <h2 class="text-center">Contact Us!</h2>
+    <fieldset id="feedback">
+        <legend></legend>
+        <label for="feedback" class="block-label">Got any questions? Get in touch with our support team below:</label>
+        <br>
+        <textarea rows="6" cols="87" name="feedback"></textarea>
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" class="margin-top" name="email"><br><br>
+    </fieldset>
+</section>
 </body>
 </html>
