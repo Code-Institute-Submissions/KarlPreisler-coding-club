@@ -108,6 +108,9 @@ nav ul li a {
     padding: 1rem;
 }
 /*Sign up form*/
+.black-background {
+    background: rgb(43, 42, 42);
+}
 #sign-up {
     width: 100%;
     margin-top: 47rem;
