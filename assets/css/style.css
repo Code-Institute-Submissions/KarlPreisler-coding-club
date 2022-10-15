@@ -19,9 +19,16 @@ background-color: rgb(97, 96, 96);
    background: url('../images/first-image-coding-club.jpeg') no-repeat center center;
 }
 /*Structure */
+h1 {
+    font-size: 220%;
+    line-height: 80px;
+    color: white;
+    margin-left: 10%;
+}
 h2 {
     font-size: 2.5rem;
     margin-bottom: 50px;
+    letter-spacing: 1.5px;
 }
 h3 {
     font-size: 1.5rem;
@@ -45,7 +52,6 @@ p {
     color: black;
     margin-bottom: 3rem;
 }
-
 .text-center {
     text-align: center;
 }
@@ -69,12 +75,6 @@ p {
 }
 .section {
     padding: 10px;
-}
-#logo {
-    font-size: 220%;
-    line-height: 80px;
-    color: white;
-    margin-left: 10%;
 }
 /*Navigation*/
 #menu {
@@ -166,8 +166,9 @@ label {
     height:400px;
     width:100%;
 }
+/* Footer */
 footer {
-	background-color:antiquewhite;
+	background-color:rgb(161, 109, 46);
 	padding: 1em;
 	text-align: center;
     width: 100%;
@@ -175,4 +176,30 @@ footer {
     bottom: 0;
     right: 0;
 	z-index: 3;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 1em;
+    margin-right:1em;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 1em;
+    margin-right:1em;
+  }
+  .fa-instagram {
+    background: #fafafa;
+    color: #517fa4;
+    margin-left: 1em;
+    margin-right:1em;
 }
