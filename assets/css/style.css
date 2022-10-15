@@ -64,6 +64,9 @@ p {
 .margin-top {
     margin-top: 5rem;
 }
+.margin-bottom {
+    margin-bottom: 5rem;
+}
 .section {
     padding: 10px;
 }
@@ -125,11 +128,9 @@ input[type=submit] {
 	border: none;
 	border-radius: 5px;
 }
-
 .block-label {
 	display: block;
 }
-
 legend {
 	font-size: large;
 	font-weight: 600;
@@ -148,4 +149,30 @@ label {
 	border-radius: 8px;
 	margin: 25px auto;
 	background-color:antiquewhite;
+}
+/*iframe map*/
+
+/* Code structure for iframe imported from Google Map Generator */
+.mapouter  {
+    position:relative;
+    text-align:right;
+    height:400px;
+    width:100%;
+}
+.gmap_canvas  {
+    overflow:hidden;
+    background:none
+    !important;
+    height:400px;
+    width:100%;
+}
+footer {
+	background-color:antiquewhite;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
 }
