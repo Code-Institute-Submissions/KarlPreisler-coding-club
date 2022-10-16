@@ -66,6 +66,14 @@ p {
 .section {
     padding: 10px;
 }
+a:hover {
+    color: black;
+}
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
 /*Navigation*/
 @media screen and (max-width: 1200px) {
    #menu li {
