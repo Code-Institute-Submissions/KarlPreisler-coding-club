@@ -24,31 +24,30 @@
     </nav><br><br>
 
     <!--Home page image-->
-    <section>
         <div id="home-image"></div>
-    </section>
     <main>
     <!--Reasons to choose us-->
+    <div id="reasons"> 
     <section>
-       <div id="reasons"> 
             <h2>Reasons to choose us</h2>
             <ul>
             <li>
             We are a group of professional and experienced developers that have made it our goal to make coding easier to learn for kids.
-            </li><br>
+            </li>
             <li>
                 Our passion has always been for coding, and now we want to create a love for programming amongst the new generation!
-            </li><br>
+            </li>
             <li>
                 We are teaching kids to think logically and develop an understanding of code!
-            </li><br>
+            </li>
             <li>
                 Weekly meetings for different age groups
-            </li><br>
+            </li>
             <li>In depth tutorials on how to build your own games
-            </li><br>
+            </li>
             </ul>
     </section>
+    </div>
     </main>
     <!--Sign up form-->
     <div class="black-background"><br>
@@ -56,7 +55,7 @@
     <h2>Sign up to get started!</h2>
     <h3>10 classes for $50</h3>
       <form action="https://formdump.codeinstitute.net" method="POST">
-        <fieldset id="feedback">
+        <fieldset class="feedback">
             <p class="text-center">Your details:</p>
           <label for="child-name" class="block-label">Name of child</label>
           <input type="text" id="child-name" name="child-name" placeholder="Child's name" required>
@@ -68,7 +67,7 @@
           <input type="email" id="email" name="email" placeholder="email" required>
           <br><br>
           <label for="birthday" class="block-label">Date of Birth</label>
-          <input type="date" id="birthday" name="birthday" placeholder="birthday" required>
+          <input type="date" id="birthday" name="birthday" required>
           <br><br>
           <input type="submit" value="Submit">
         </fieldset>
@@ -80,21 +79,23 @@
     <!--Contact us -->
     <section id="contact">
         <h2 class="text-center">Contact Us!</h2>
-    <fieldset id="feedback">
+        <form action="https://formdump.codeinstitute.net" method="POST"></form>
+    <fieldset class="feedback">
         <legend></legend>
-        <label for="feedback" class="block-label">Got any questions? Get in touch with our support team below:</label>
+        <label for="feedback-field" class="block-label">Got any questions? Get in touch with our support team below:</label>
         <br>
-        <textarea rows="6" cols="87" name="feedback"></textarea><br><br>
+        <textarea rows="6" cols="87" id="feedback-field" name="feedback-field"></textarea><br><br>
         <label for="email">Contact Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email-2" name="email-2">
+        <input type="submit" value="Submit" id="secondsubmit" >
     </fieldset>
 </section>
 <!-- Find us here-->
 <h2 class="text-center">Find us here!</h2>
-    <section class="mapouter, gmap_canvas" id="find-us">
+    <div class="mapouter, gmap_canvas" id="find-us">
         <iframe class="mapouter, gmap_canvas" src="https://maps.google.com/maps?q=gubbk%C3%A4rrsv%C3%A4gen%2029q&t=&z=13&ie=UTF8&iwloc=&output=embed">   
         </iframe>
-  </section>
+    </div>
   <footer id="footer">
     <p>Follow us on:</p>
     <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
