@@ -77,14 +77,13 @@
     <section id="contact">
         <h2 class="text-center">Contact Us!</h2>
         <form action="https://formdump.codeinstitute.net" method="POST">
-    <fieldset class="feedback" id="feedback">
+    <fieldset class="feedback" id="feedback-field">
         <legend></legend>
         <label for="feedback-field" class="block-label">Got any questions? Get in touch with our support team below:</label>
-        <br>
-        <textarea rows="6" cols="87" id="feedback-field" name="feedback-field"></textarea><br><br>
-        <div class="text-left">
-            <label for="contact-email">Contact Email:</label> 
-            <input type="email" id="contact-email" name="contact-email">
+        <textarea rows="6" cols="87" id="feedback-field" name="feedback-field"></textarea>
+        <div>
+            <label for="contact-email" class="block-label">Contact email:</label>
+            <input type="email" id="contact-email" name="email" placeholder="email" required>
         </div>
         <input type="submit" value="Submit" id="secondsubmit" >
     </fieldset>
