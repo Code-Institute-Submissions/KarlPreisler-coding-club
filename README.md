@@ -35,29 +35,29 @@ The Footer contains a text encouraging the user to check out Coding Club on soci
 
 ## Testing
 
-I have tested that this website works approprietly in the following browsers: Chrome, Firefox and Safari. 
+- I have tested that this website works approprietly in the following browsers: Chrome, Firefox and Safari. 
 
-I confirmed that this website looks good and functions on all standars screen sizes using the devtools device toolbar.
+- I confirmed that this website looks good and functions on all standars screen sizes using the devtools device toolbar.
 
-I have confirmed that the navigation bar and all sections are easy to understand and readable. 
+- I have confirmed that the navigation bar and all sections are easy to understand and readable. 
 
-I have made sure that all forms have appropriate values for posting data. 
+- I have made sure that all forms have appropriate values for posting data. 
 
-I have tested that all links opens in a new tab.
+- I have tested that all links opens in a new tab.
 
-I have made sure that all forms have required tags for all inputs where answer needs to be provided.
+- I have made sure that all forms have required tags for all inputs where answer needs to be provided.
 
-I have made sure that all links works.
+- I have made sure that all links works.
 
-I have made sure that the website is responsive to all devices, using media queries to change structure of navigation bar to adapt to mobile devices.
+- I have made sure that the website is responsive to all devices, using media queries to change structure of navigation bar to adapt to mobile devices.
 
 ## Validator Testing
 
-No errors were returned when passing the HTML code through the official W3C validator
+- No errors were returned when passing the HTML code through the official W3C validator
 
-No errors were found when passing through the CSS code through the official (Jigsaw) validator
+- No errors were found when passing through the CSS code through the official (Jigsaw) validator
 
-Use Lighthouse to Include accessibility score
+- Use Lighthouse to Include accessibility score
 
 ## Unfixed Bugs
 
