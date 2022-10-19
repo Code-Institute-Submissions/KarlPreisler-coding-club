@@ -43,9 +43,9 @@ I have confirmed that the navigation bar and all sections are easy to understand
 
 I have made sure that all forms have appropriate values for posting data. 
 
-I have made sure all links opens in a new tab.
+I have tested that all links opens in a new tab.
 
-I have made sure that all forms have required tags for all required inputs.
+I have made sure that all forms have required tags for all inputs where answer needs to be provided.
 
 I have made sure that all links works.
 
