@@ -20,13 +20,9 @@ margin-right: auto;
 }
 /*Structure */
 
-nav > h1, nav > ul {
-    dislay: inline-block;
-    margn-left: 5em;
-}
 h1 {
     font-size: 2.5rem;
-    color: white;
+    letter-spacing: 3px;
 }
 h2 {
     font-size: 2.5rem;
@@ -42,23 +38,11 @@ h3 {
     padding-bottom:20px ;
     padding-top: 20px;
 }
-#menu {
-    font-size: 120%;
-    letter-spacing: 4px;
-    margin-top: -3.5em;
-    margin-bottom: 5em;
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 2em;
-    position: relative;
-}
 nav ul li a {
     color: white;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
     color:#fafafa;
 }
 h4 {
@@ -92,8 +76,13 @@ p {
 .margin-bottom {
     margin-bottom: 5rem;
 }
-
-
+.block-label {
+	display: block;
+}
+label {
+    margin: 10px 15px 5px 0;
+    color: black;
+}
 a:visited,
 a:link,
 a:active {
@@ -106,14 +95,18 @@ a:hover {
 input[type=submit]:hover {
     color: black;
 }
-.block-label {
-	display: block;
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    margin-top: -3.5em;
+    margin-bottom: 5em;
 }
-label {
-    margin: 10px 15px 5px 0;
-    color: black;
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 2em;
+    position: relative;
 }
-/*Navigation*/
 @media screen and (max-width: 1200px) {
    #menu li {
         text-align: center;
@@ -133,7 +126,7 @@ label {
 @media screen and (max-width: 1200px) {
     h1 { text-align: center;
         position: relative;
-        padding: 3rem;
+        padding: 2rem;
      }
  }
  @media screen and (min-width: 1200px) {
@@ -250,8 +243,11 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-bottom: 20px;
 }
-
+#footer-container {
+    margin-top: 300px;
+}
 .fa {
     padding: 5px;
     font-size: 2.7rem;
@@ -263,8 +259,8 @@ footer {
   .fa-facebook,
   .fa-twitter,
   .fa-instagram {
-    margin-left: 1em;
-    margin-right:1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     color: #fafafa;
   }
   .fa-facebook {
