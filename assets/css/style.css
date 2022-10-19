@@ -20,13 +20,12 @@ margin-right: auto;
 }
 /*Structure */
 
-header {
-    margin-bottom: 50px;
-}
+
 h1 {
     font-size: 3rem;
     color: white;
     margin-left: 5%;
+    margin-right: 30%;
 }
 h2 {
     font-size: 2.5rem;
@@ -82,14 +81,18 @@ p {
     margin-bottom: 5rem;
 }
 
-a:hover {
-    color: black;
-}
+
 a:visited,
 a:link,
 a:active {
     text-decoration: none;
     color: white;
+}
+a:hover {
+    color: black;
+}
+input[type=submit]:hover {
+    color: black;
 }
 .block-label {
 	display: block;
