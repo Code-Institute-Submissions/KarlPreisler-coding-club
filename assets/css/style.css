@@ -260,9 +260,9 @@ footer {
   .fa-facebook,
   .fa-twitter,
   .fa-instagram {
-    color: white;
     margin-left: 1em;
     margin-right:1em;
+    color: #fafafa;
   }
   .fa-facebook {
     background: #3B5998;
@@ -271,6 +271,5 @@ footer {
     background: #55ACEE;
   }
   .fa-instagram {
-    background: #fafafa;
-    color: #517fa4;
+    background: #517fa4;
 }
