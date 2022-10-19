@@ -8,7 +8,7 @@ Information such as the location for the company, reasons why to join Coding Clu
 
 - Navigation 
 
-Coding CLub logo in the top left corner of the website, this links to the homepage.
+On the top left of the page, there is a Coding Club logo that is a link to the homepage.
 
 To the right of the logo there are four navigation links: Why Coding Club?, Sign up, Contact us and Find us. These links are for the user of the website to easily find the information they are looking for. The navigation links changes color when the user hovers over each link making it clear to the user that they are clickable.
 
