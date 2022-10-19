@@ -11,24 +11,24 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><h1>Coding Club</h1></a>
-    </header>
     <!-- Navigation/Menu-->
-    <nav>
-        <ul id="menu">
-            <li><a href="#find-us">Find us here</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#sign-up">Sign up</a></li>
-            <li><a href="#reasons">Why Coding Club?</a></li>
-        </ul>
-    </nav><br><br>
-
+        <nav>
+            <h1 class="logo">
+                <a href="index.html">Coding Club</a>
+            </h1>
+            <ul id="menu">
+                <li><a href="#find-us">Find us here</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sign-up">Sign up</a></li>
+                <li><a href="#reasons">Why Coding Club?</a></li>
+            </ul>
+        </nav>
+    </header>
     <!--Home page image-->
-        <div id="home-image"></div>
     <main>
+        <div id="home-image"></div>
     <!--Reasons to choose us-->
-    <div id="reasons"> 
-    <section>
+        <section id="reasons"> 
             <h2>Reasons to choose us</h2>
             <ul>
             <li>
@@ -46,12 +46,10 @@
             <li>In depth tutorials on how to build your own games
             </li>
             </ul>
-    </section>
-    </div>
-    </main>
+        </section>
     <!--Sign up form-->
-    <div class="black-background"><br>
-    <section id="sign-up">
+    <div class="black-background">
+        <section id="sign-up">
     <h2>Sign up to get started!</h2>
     <h3>10 classes for $50</h3>
       <form action="https://formdump.codeinstitute.net" method="POST">
@@ -59,36 +57,38 @@
             <p class="text-center">Your details:</p>
           <label for="child-name" class="block-label">Name of child</label>
           <input type="text" id="child-name" name="child-name" placeholder="Child's name" required>
-          <br><br>
+        
           <label for="parent-name" class="block-label">Parent/Guardian's name</label>
           <input type="text" id="parent-name" name="parent-name" placeholder="Parent/Guardian's name" required>
-          <br><br>
+          
           <label for="email" class="block-label">Contact email</label>
           <input type="email" id="email" name="email" placeholder="email" required>
-          <br><br>
-          <label for="birthday" class="block-label">Date of Birth</label>
+          
+          <label for="birthday" class="block-label">Starting Date</label>
           <input type="date" id="birthday" name="birthday" required>
-          <br><br>
+          
           <input type="submit" value="Submit">
         </fieldset>
       </form>
-      <br><br>
-    </section>
+        </section>
     </div>
-    <br><br>
+    
     <!--Contact us -->
     <section id="contact">
         <h2 class="text-center">Contact Us!</h2>
-        <form action="https://formdump.codeinstitute.net" method="POST"></form>
-    <fieldset class="feedback">
+        <form action="https://formdump.codeinstitute.net" method="POST">
+    <fieldset class="feedback" id="feedback">
         <legend></legend>
         <label for="feedback-field" class="block-label">Got any questions? Get in touch with our support team below:</label>
         <br>
         <textarea rows="6" cols="87" id="feedback-field" name="feedback-field"></textarea><br><br>
-        <label for="email">Contact Email:</label>
-        <input type="email" id="email-2" name="email-2">
+        <div class="text-left">
+            <label for="contact-email">Contact Email:</label> 
+            <input type="email" id="contact-email" name="contact-email">
+        </div>
         <input type="submit" value="Submit" id="secondsubmit" >
     </fieldset>
+</form>
 </section>
 <!-- Find us here-->
 <h2 class="text-center">Find us here!</h2>
@@ -96,11 +96,15 @@
         <iframe class="mapouter, gmap_canvas" src="https://maps.google.com/maps?q=gubbk%C3%A4rrsv%C3%A4gen%2029q&t=&z=13&ie=UTF8&iwloc=&output=embed">   
         </iframe>
     </div>
-  <footer id="footer">
+    </main>
+    <!-- Footer -->
+  <footer>
+    <div class="footer-container">
     <p>Follow us on:</p>
     <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
     <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
     <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+    </div>
   </footer>
 </body>
 </html>
