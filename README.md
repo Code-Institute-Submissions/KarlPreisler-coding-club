@@ -93,7 +93,7 @@ The steps to deploy are as follows:
 - Select the Master Branch from the source section drop-down menu.
 - The page will automatically be refreshed with a detailed ribbon display to indicate that the deployment was successful.
 
-Live link for the website - https://8000-karlpreisler-codingclub-3cxjcnvf2hi.ws-eu71.gitpod.io/
+Live link for the website - https://karlpreisler.github.io/coding-club/
 
 ## How to clone the repository
 
