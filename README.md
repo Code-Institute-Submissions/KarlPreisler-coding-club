@@ -59,7 +59,9 @@ The Footer contains a text encouraging the user to check out Coding Club on soci
 
 - No errors were found when passing through the CSS code through the official (Jigsaw) validator
 
-- Use Lighthouse to Include accessibility score
+- Lighthouse accessibility score
+
+
 ![Lighthouse Screenshot PP1 ](https://user-images.githubusercontent.com/114813115/196899038-dd0f7714-89df-4b38-8912-2fa05b83036f.png)
 
 ## Test Cases and Results
